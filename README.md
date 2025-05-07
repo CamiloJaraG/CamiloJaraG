@@ -1,5 +1,5 @@
 # Camilo Jara
-el conocimiento supremo de imprimir cosas por consola
+el conocimiento supremo de imprimir cosas por consola  
 serpiente pero no
 ```python
 print("Dolor.")
