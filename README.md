@@ -1,5 +1,8 @@
 # Camilo Jara
-[![Texto alternativo](autism-creature-burn.gif)](https://github.com/CamiloJaraG/CamiloJaraG/blob/fe2149855d33ad62f4182c343ca6bddcab0248e9/autism-creature-burn.gif)
+[![Texto alternativo](autism-creature-burn.gif)](https://github.com/CamiloJaraG/CamiloJaraG/blob/fe2149855d33ad62f4182c343ca6bddcab0248e9/autism-creature-burn.gif) 
+[![Texto alternativo](autism-creature-burn.gif)](https://github.com/CamiloJaraG/CamiloJaraG/blob/fe2149855d33ad62f4182c343ca6bddcab0248e9/autism-creature-burn.gif) 
+[![Texto alternativo](autism-creature-burn.gif)](https://github.com/CamiloJaraG/CamiloJaraG/blob/fe2149855d33ad62f4182c343ca6bddcab0248e9/autism-creature-burn.gif) 
+[![Texto alternativo](autism-creature-burn.gif)](https://github.com/CamiloJaraG/CamiloJaraG/blob/fe2149855d33ad62f4182c343ca6bddcab0248e9/autism-creature-burn.gif) 
 
 
 el conocimiento supremo de imprimir cosas por consola (4to año ya)  
