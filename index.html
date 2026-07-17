@@ -84,7 +84,7 @@
                 Egresado en diciembre del 2025 desde el Instituto Profesional Virginio Gómez, Chile.
             </p>
             <a href="#proyectos" class="inline-block bg-white text-black px-8 py-4 rounded-full font-semibold text-lg hover:bg-zinc-200 transition">
-                Ver proyectos <i class="fa-solid fa-arrow-right"></i>
+                <i class="fa-brands fa-github"></i> Ver proyectos <i class="fa-solid fa-arrow-right"></i>
             </a>
         </div>
     </section>
@@ -92,21 +92,28 @@
         <div class="max-w-4xl mx-auto px-6">
             <h2 class="text-4xl font-bold mb-8"><i class="fa-solid fa-user-graduate"></i> Sobre mí</h2>
             <p class="text-lg text-zinc-300 leading-relaxed">
-                Soy un Ingeniero de Ejecución en Computación e Informática con fuerte enfoque en desarrollo web.
-                Tengo experiencia trabajando con C# (.NET), Python (Django) y recientemente con Go para sistemas de alto rendimiento.
+                Soy Ingeniero de Ejecución en Computación e Informática con enfoque en desarrollo web y sistemas backend. Construyo aplicaciones con C# (.NET), Python (Django) y Go — desde APIs hasta sistemas que necesitan escalar bajo carga real.
+                Me interesa especialmente el rendimiento y la arquitectura de software, no solo que funcione, sino que funcione bien.
+                Actualmente disponible para proyectos freelance y abierto a nuevas oportunidades.
             </p>
         </div>
     </section>
     <section id="habilidades" class="py-20">
         <div class="max-w-6xl mx-auto px-6">
-            <h2 class="text-4xl font-bold mb-12 text-center">Habilidades técnicas</h2>
+            <h2 class="text-4xl font-bold mb-5 text-center">Habilidades técnicas principales</h2>
+            <p class="text-sm text-zinc-300 text-center mb-8">
+                Haz clic en alguna de las habilidades para obtener más información sobre mis conocimientos en ella.
+            </p>
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
                 <a href="#" class="group bg-zinc-900 p-6 rounded-2xl text-center border border-transparent transition-all duration-300 hover:border-violet-500 hover:shadow-lg hover:shadow-violet-500/20" onclick="event.preventDefault(); abrirModal('modal-csharp')">C# / .NET</a>
                 <a href="#" class="group bg-zinc-900 p-6 rounded-2xl text-center border border-transparent transition-all duration-300 hover:border-yellow-400 hover:shadow-lg hover:shadow-yellow-400/20" onclick="event.preventDefault(); abrirModal('modal-python')">Python</a>
                 <a href="#" class="group bg-zinc-900 p-6 rounded-2xl text-center border border-transparent transition-all duration-300 hover:border-sky-400 hover:shadow-lg hover:shadow-sky-400/20" onclick="event.preventDefault(); abrirModal('modal-golang')">Golang</a>
                 <a href="#" class="group bg-zinc-900 p-6 rounded-2xl text-center border border-transparent transition-all duration-300 hover:border-emerald-400 hover:shadow-lg hover:shadow-emerald-400/20" onclick="event.preventDefault(); abrirModal('modal-sql')">SQL</a>
             </div>
-        </div>
+            <div class="h-px w-full bg-zinc-800 my-6"></div>
+            <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 gap-6 mt-6">
+                <a href="/skills/otras.html" class="group bg-zinc-900 p-6 rounded-2xl text-center border border-transparent transition-all duration-300 hover:border-zinc-500 hover:shadow-lg hover:shadow-zinc-500/20">Otras habilidades con las que tengo menos experiencia</a>
+            </div>
     </section>
     <section id="proyectos" class="py-20 bg-zinc-900">
         <div class="max-w-6xl mx-auto px-6">
@@ -114,7 +121,6 @@
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <a href="projects/agente.html" class="block bg-zinc-800 rounded-3xl border-2 border-amber-500 overflow-hidden group hover:border-amber-300 transition">
                     <div class="h-52 bg-zinc-700 flex items-center justify-center">
-                        <!-- Reemplazar span por imágenes -->
                         <span class="text-6xl"><i class="fa-solid fa-robot"></i></span>
                     </div>
                     <div class="p-6">
@@ -133,7 +139,7 @@
                         <span class="text-6xl"><i class="fa-solid fa-list-check"></i></span>
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-semibold mb-2">Gestor de tareas</h3>
+                        <h3 class="text-xl font-semibold mb-2">Gestor de proyectos</h3>
                         <p class="text-zinc-400 mb-4">Aplicación web MVC que cree durante la carrera para una evaluación. Su función matriz es un tablero Kanban.</p>
                         <div class="flex gap-2">
                             <span class="text-xs bg-zinc-700 px-3 py-1 rounded-full">C#</span>
@@ -145,7 +151,6 @@
                 </a>
                 <div class="bg-zinc-800 rounded-3xl overflow-hidden group">
                     <div class="h-52 bg-zinc-700 flex items-center justify-center">
-                        <!-- Reemplazar span por imágenes -->
                         <span class="text-6xl"><i class="fa-solid fa-image"></i></span>
                     </div>
                     <div class="p-6">
@@ -178,7 +183,7 @@
                 Tengo experiencia desarrollando aplicaciones web con ASP.NET MVC, APIs RESTful y aplicaciones de consola.
                 He trabajado con Entity Framework para la gestión de bases de datos y tengo conocimientos en Blazor para interfaces interactivas.
             </p>
-            <a href="skills/csharp.html" class="inline-block bg-violet-600 text-white px-4 py-2 me-1 rounded-md transition hover:bg-violet-800">Ver más detalles <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="skills/csharp.html" class="inline-block bg-violet-600 text-white px-4 py-2 me-1 rounded-md transition hover:bg-violet-800">Ver información detallada <i class="fa-solid fa-arrow-right"></i></a>
             <button type="button" class="modal-close bg-red-600 px-4 py-2 rounded-md text-white transition hover:bg-red-800">Cerrar</button>
         </div>
     </div>
@@ -191,7 +196,7 @@
             <p class="text-zinc-300 mb-4">
                 Trabajo con Python para automatizaciones, APIs y scripts de procesamiento de datos, con enfoque en legibilidad y escalabilidad.
             </p>
-            <a href="skills/python.html" class="inline-block bg-yellow-500 text-zinc-950 px-4 py-2 me-1 rounded-md transition hover:bg-yellow-400">Ver más detalles <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="skills/python.html" class="inline-block bg-yellow-500 text-zinc-950 px-4 py-2 me-1 rounded-md transition hover:bg-yellow-400">Ver información detallada <i class="fa-solid fa-arrow-right"></i></a>
             <button type="button" class="modal-close bg-red-600 px-4 py-2 rounded-md text-white transition hover:bg-red-800">Cerrar</button>
         </div>
     </div>
@@ -204,7 +209,7 @@
             <p class="text-zinc-300 mb-4">
                 He explorado Go para construir servicios rápidos y de alto rendimiento, especialmente cuando la eficiencia y el paralelismo son clave.
             </p>
-            <a href="skills/go.html" class="inline-block bg-sky-500 text-white px-4 py-2 me-1 rounded-md transition hover:bg-sky-400">Ver más detalles <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="skills/go.html" class="inline-block bg-sky-500 text-white px-4 py-2 me-1 rounded-md transition hover:bg-sky-400">Ver información detallada <i class="fa-solid fa-arrow-right"></i></a>
             <button type="button" class="modal-close bg-red-600 px-4 py-2 rounded-md text-white transition hover:bg-red-800">Cerrar</button>
         </div>
     </div>
@@ -217,7 +222,7 @@
             <p class="text-zinc-300 mb-4">
                 Tengo conocimientos sólidos en consultas, diseño de tablas y optimización de bases de datos relacionales para soluciones de negocio.
             </p>
-            <a href="skills/sql.html" class="inline-block bg-emerald-500 text-white px-4 py-2 me-1 rounded-md transition hover:bg-emerald-400">Ver más detalles <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="skills/sql.html" class="inline-block bg-emerald-500 text-white px-4 py-2 me-1 rounded-md transition hover:bg-emerald-400">Ver información detallada <i class="fa-solid fa-arrow-right"></i></a>
             <button type="button" class="modal-close bg-red-600 px-4 py-2 rounded-md text-white transition hover:bg-red-800">Cerrar</button>
         </div>
     </div>

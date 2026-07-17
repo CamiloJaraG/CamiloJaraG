@@ -25,6 +25,22 @@ section#proyectos .flex.gap-2 {
 	flex-wrap: wrap;
 }
 
+.page-hero {
+	min-height: 22rem;
+	display: flex;
+	align-items: center;
+	padding-block: 3rem 2rem;
+}
+
+.page-hero .hero-content {
+	width: 100%;
+	padding-block: 0;
+}
+
+.page-hero h2 {
+	margin-bottom: 0;
+}
+
 .modal-overlay {
 	backdrop-filter: blur(0px);
 }
@@ -46,6 +62,11 @@ section#proyectos .flex.gap-2 {
 
 	nav h1 {
 		font-size: 1.5rem;
+	}
+
+	.page-hero {
+		min-height: 14rem;
+		padding-block: 2rem 1.5rem;
 	}
 
 	section.min-h-screen > div {
